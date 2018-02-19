@@ -19,7 +19,8 @@
 
 
     angular
-        .module("App").factory("TodoService", TodoService);
+        .module("App")
+        .factory("TodoService", TodoService);
 
 
 })();
